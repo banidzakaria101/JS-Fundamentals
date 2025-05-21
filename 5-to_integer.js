@@ -9,4 +9,4 @@ function isNumber(toNumber) {
   }
 }
 
-isNumber("89");
+isNumber();
