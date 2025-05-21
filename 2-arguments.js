@@ -8,4 +8,6 @@ function myFunction(arg1, arg2) {
     }
 }
 
+myFunction();
 myFunction(1);
+myFunction(1,2);
