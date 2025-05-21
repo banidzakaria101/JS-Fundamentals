@@ -19,6 +19,6 @@ function myFunction(args) {
   }
 }
 
-const args = process.argv;
+const args = process.argv.slice(2);
 
 myFunction(args);
