@@ -1,5 +1,5 @@
 const args = process.argv.slice(2);
-const toNumber = parseInt(args)
+const toNumber = parseInt(args);
 
 function isNumber(num) {
   if (isNaN(num)) {
