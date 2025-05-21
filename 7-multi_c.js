@@ -9,7 +9,7 @@ function myFunction(x) {
   for (let i = 0; i < x; i++) {
     output += "C is fun\n";
   }
-  console.log(output);
+  console.log(output.trim());
   }
 }
 
