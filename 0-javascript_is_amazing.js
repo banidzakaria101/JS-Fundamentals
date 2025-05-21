@@ -1,2 +1,2 @@
-let myVar = "JacaScript is amazing";
+let myVar = "JajaScript is amazing";
 console.log(myVar);
