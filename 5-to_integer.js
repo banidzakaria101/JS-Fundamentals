@@ -1,12 +1,12 @@
 const args = process.argv.slice(2);
 const toNumber = parseInt(args)
 
-function isNumber(toNumber) {
-  if (isNaN(toNumber)) {
+function isNumber(num) {
+  if (isNaN(num)) {
     console.log("Not a number");
   }else {
-    console.log(`My number ${toNumber}`);
+    console.log(`My number ${num}`);
   }
 }
 
-isNumber();
+isNumber(toNumber);
