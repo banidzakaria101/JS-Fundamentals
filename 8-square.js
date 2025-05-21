@@ -13,7 +13,7 @@ function myFunction(x) {
         for (let i = 0; i < x; i++) {
             let square = '';
             for (let j = 0; j < x; j++) {
-                square += 'x';
+                square += 'X';
             }
             console.log(square);
         }
